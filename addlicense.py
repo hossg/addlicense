@@ -48,6 +48,8 @@ args = parser.parse_args()
 comment=''
 if(args.comment):
     comment=args.comment + ' '
+if(args.commentblock):
+    (opencomment,closecomment)=args.commentblock.split()
 licensetext=[]
 with open(args.licensefile,'r') as f:
     licensetext_lines=f.readlines()
