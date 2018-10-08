@@ -1,0 +1,10 @@
+<insert a description about your program here>
+
+Copyright (C) <year> <copyright holder>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the <INSERT LICENSE SUMMARY HERE>
+
+<EXPLAIN ANY KEY TERMS HERE, e.g. WARRANTY, LIABILITY>
+
+<EXPLAIN HOW TO FIND OR OBTAIN A FULL COPY OF THE LICENSE HERE>
