@@ -78,3 +78,6 @@ for filename in args.sourcefiles:
         f.writelines(licensetext + lines)
 
 print("Done!")
+
+def main():
+    print('hello world')
