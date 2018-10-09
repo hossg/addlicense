@@ -26,7 +26,7 @@ def main():
                                                 'the top of one or more source code files',
                                      epilog='More information: https://github.com/hossg/addlicense')
     parser.add_argument('--licensefile', default="LICENSE_NOTICE.txt",
-                        help='a file containing the license or copyright text, defaulting to LICENSE.txt')
+                        help='a file containing the license or copyright text, defaulting to LICENSE_NOTICE.txt')
     parser.add_argument('--commentblock',
                         help='a space-separated string indicating the characters to use at the beginning and end of the ' \
                         'license message to demark them as a comment block')
