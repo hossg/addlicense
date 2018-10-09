@@ -75,7 +75,12 @@ def main():
                     f.write(lines[0])
                     lines=lines[1:] # remove the first line, having now written it
 
-            f.writelines(licensetext + lines)
+            if(args.commentblock):
+                f.writelines(opencomment+'\n')
+            f.writelines(licensetext)
+            if (args.commentblock):
+                f.writelines(closecomment+'\n')
+            f.writelines(lines)
 
     print("\nDone!")
 
