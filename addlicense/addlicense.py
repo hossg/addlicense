@@ -23,7 +23,8 @@ import shutil
 def main():
     print()
     parser = argparse.ArgumentParser(description='Automatically inserts a specified license file or copyright message at ' \
-                                                'the top of one or more source code files')
+                                                'the top of one or more source code files',
+                                     epilog='More information: https://github.com/hossg/addlicense')
     parser.add_argument('--licensefile', default="LICENSE_NOTICE.txt",
                         help='a file containing the license or copyright text, defaulting to LICENSE.txt')
     parser.add_argument('--commentblock',
