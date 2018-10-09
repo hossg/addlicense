@@ -18,4 +18,7 @@ setuptools.setup(
         "License :: OSI Approved :: GNU Affero License v3",
         "Operating System :: OS Independent",
     ],
+    entry_points = {
+        'console_scripts': ['addlicense=addlicense.addlicense:main'],
+    }
 )
