@@ -1,6 +1,6 @@
-#addlicense 
+# addlicense 
 
-addlicense is a simple utility that automatically inserts a specified license file or copyright message at the top of one or more source code files
+*addlicense* is a simple utility that automatically inserts a specified license file or copyright message at the top of one or more source code files
 
 ```
 usage: addlicense.py [-h] [--licensefile LICENSEFILE]
@@ -39,3 +39,13 @@ optional arguments:
 
 
 ```
+
+## Installation
+
+*addlicense* is written in Python, and you can use the pip installer to install it thus:
+```
+$ pip install addlicense
+```
+## Homepage
+
+You can find the homepage of *addlicense* at https://github.com/hossg/addlicense
