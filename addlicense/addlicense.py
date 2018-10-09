@@ -77,7 +77,7 @@ for filename in args.sourcefiles:
 
         f.writelines(licensetext + lines)
 
-print("Done!")
+print("\nDone!")
 
 def main():
-    print('hello world')
+    print()
