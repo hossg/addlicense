@@ -19,7 +19,7 @@ optional arguments:
   -h, --help            show this help message and exit
   --licensefile LICENSEFILE
                         a file containing the license or copyright text,
-                        defaulting to LICENSE.txt
+                        defaulting to LICENSE_NOTICE.txt
   --commentblock COMMENTBLOCK
                         a space-separated string indicating the characters to
                         use at the beginning and end of the license message to
