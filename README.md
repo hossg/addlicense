@@ -46,6 +46,13 @@ optional arguments:
 ```
 $ pip install addlicense
 ```
+
+## Example
+```
+$ addlicense --licensefile copyrightnotice.txt --comment # --commentblock '##### #####' --backup *.py
+
+```
+
 ## Homepage
 
 You can find the homepage of *addlicense* at https://github.com/hossg/addlicense
