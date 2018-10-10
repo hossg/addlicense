@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="addlicense",
-    version="0.0.1",
+    version="0.0.2",
     author="Hossein Ghodse",
     author_email="hossein.ghodse@gmail.com",
     description="addlicense automatically inserts a specified license file or copyright message at the top of one or more source code files",
